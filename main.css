@@ -96,10 +96,7 @@ margin-left: 30px;
 }
 
 
-.mytunes {
 
-    margin-top:150px;
-}
 -----------------------------------
 
 
@@ -133,4 +130,55 @@ margin-left: 30px;
 
 .fa-twitter-square grijs {
     color: hsl( 202, 33.3%, 84%);
-    font-size: 2.5em;
+    font-size: 2.5em;}
+
+
+.foto1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+.foto2 {
+        position: absolute;
+        text-align: center;
+        top:25%;
+        width: 100%;
+        z-index:90;
+        color:white;
+    font-size:5em;    }
+
+    
+.pijl,
+.pijl2{
+    margin-left:10px;
+    margin-right:9px;
+    margin-bottom:25px;
+    position:center
+    display: block;
+    height:35px;
+    width:auto;
+     
+}
+
+.pijl2:hover{
+    height:40px;
+    width:auto;
+    opacity:0.5;
+
+    
+}
+
+.midden{
+    width: 100%;
+    height: 100%; 
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.onder{
+    width: 100%;
+    height: 100%;
+}
+
+  
